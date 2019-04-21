@@ -65,5 +65,10 @@
       <Name>TestVlcSharp</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="LibVLCSharp.Forms.GTK">
+      <Version>0.8.1</Version>
+    </PackageReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
