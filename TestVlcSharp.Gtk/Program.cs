@@ -11,6 +11,8 @@ namespace TestVlcSharp.Gtk
         public static void Main(string[] args)
         {
             global::Gtk.Application.Init();
+            global::LibVLCSharp.Forms.Shared.LibVLCSharpFormsRenderer.Init();
+            global::LibVLCSharp.Shared.Core.Initialize();
             Forms.Init();
 
             var app = new App();
