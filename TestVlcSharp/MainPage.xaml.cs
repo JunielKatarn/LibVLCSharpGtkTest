@@ -35,7 +35,7 @@ namespace TestVlcSharp
                     player.Stop();
                 else
                 {
-                    player.Media = new Media(vlc, PathEntry.Text, FromType.FromPath);
+                    player.Media = new Media(vlc, PathEntry.Text, FromType.FromLocation);
 
                     player.Play();
                 }
