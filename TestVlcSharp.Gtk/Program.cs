@@ -11,9 +11,7 @@ namespace TestVlcSharp.Gtk
         public static void Main(string[] args)
         {
             global::Gtk.Application.Init();
-            global::LibVLCSharp.Forms.Shared.LibVLCSharpFormsRenderer.Init();
-            global::LibVLCSharp.Shared.Core.Initialize();
-            Forms.Init();
+            global::Xamarin.Forms.Forms.Init();
 
             var app = new App();
             var window = new FormsWindow();
@@ -22,6 +20,8 @@ namespace TestVlcSharp.Gtk
             window.Show();
 
             global::Gtk.Application.Run();
+            global::LibVLCSharp.Forms.Shared.LibVLCSharpFormsRenderer.Init();
+            global::LibVLCSharp.Shared.Core.Initialize();
         }
     }
 }
