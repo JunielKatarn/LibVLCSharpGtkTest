@@ -11,6 +11,8 @@ Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhone = Debug|iPhone
 		Release|iPhone = Release|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
@@ -19,6 +21,14 @@ Global
 		{2178EB06-0F29-4C6A-95E5-4C77BE03E1EE}.Debug|iPhone.Build.0 = Debug|iPhone
 		{2178EB06-0F29-4C6A-95E5-4C77BE03E1EE}.Release|iPhone.ActiveCfg = Release|iPhone
 		{2178EB06-0F29-4C6A-95E5-4C77BE03E1EE}.Release|iPhone.Build.0 = Release|iPhone
+		{2178EB06-0F29-4C6A-95E5-4C77BE03E1EE}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{2178EB06-0F29-4C6A-95E5-4C77BE03E1EE}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{2178EB06-0F29-4C6A-95E5-4C77BE03E1EE}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{2178EB06-0F29-4C6A-95E5-4C77BE03E1EE}.Release|Any CPU.Build.0 = Release|iPhoneSimulator
+		{2178EB06-0F29-4C6A-95E5-4C77BE03E1EE}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{2178EB06-0F29-4C6A-95E5-4C77BE03E1EE}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{2178EB06-0F29-4C6A-95E5-4C77BE03E1EE}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{2178EB06-0F29-4C6A-95E5-4C77BE03E1EE}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 		{E1B2C2A3-6C3D-4636-A100-2C8F1C716F18}.Debug|iPhone.ActiveCfg = Debug|Any CPU
 		{E1B2C2A3-6C3D-4636-A100-2C8F1C716F18}.Debug|iPhone.Build.0 = Debug|Any CPU
 		{E1B2C2A3-6C3D-4636-A100-2C8F1C716F18}.Release|iPhone.ActiveCfg = Release|Any CPU
